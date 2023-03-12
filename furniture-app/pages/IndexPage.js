@@ -1,7 +1,7 @@
 import { SafeAreaView, View, StyleSheet, Text, ScrollView, Image, TouchableOpacity, StatusBar } from "react-native";
 import { data } from "../Content";
-import Intl from "intl";
-import 'intl/locale-data/json/en-ZA'
+// import Intl from "intl";
+// import 'intl/locale-data/json/en-ZA'
 
 const IndexPage = ({navigation}) => {
     const addCommas = (num) => {
@@ -12,7 +12,7 @@ const IndexPage = ({navigation}) => {
           currency: "USD"
         }).format(num);
       }
-      
+
   return (
     <View style={{flex:1, marginTop: StatusBar.currentHeight}}>
       {/* Header */}
