@@ -7,7 +7,7 @@ const IndexPage = ({navigation}) => {
       {/* Header */}
       <View style={styles.header}>
         <SafeAreaView>
-          <Text style={styles.headerText}>Stackie's Furniture</Text>
+          <Text style={styles.headerText}>Retr0's Furniture</Text>
           <Text style={{...styles.headerText, fontSize:15}}>The best furniture in the world</Text>
         </SafeAreaView>
       </View>
